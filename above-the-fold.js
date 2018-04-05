@@ -11,7 +11,7 @@
                         // the width of browser is more then 700px
                     }
                     else {
-                        continue;
+                        return;
                     }
                 }
                 else if(rule instanceof CSSStyleRule) {
